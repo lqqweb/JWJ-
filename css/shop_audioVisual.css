@@ -1,0 +1,188 @@
+/* 中间内容 */
+.middleImg{
+	width:100%;
+}
+.middleImg img{
+	width:100%;
+	height:228px;
+}
+.middleContent{
+	width:65%;
+	min-width:900px;
+	margin:0 auto;
+	/* border:1px solid red; */
+}
+.location{
+	color:#a0a0a0;
+}
+.location a{
+	color:#a0a0a0;
+}
+/* 热门推荐 */
+.courseType{
+	border-bottom: 2px solid #23bcb3;
+    width: 65px;
+    margin:20px 0 25px 0;
+    font-size:16px;
+    color:#666666;
+    line-height:32px;
+}
+.hotCourseList{
+	width:95%;
+   padding-left: 25px;
+    background: #ffffff;
+}
+.hotCourseItem{
+	width:23%;
+	/* border:1px solid red; */
+	display:inline-block;
+	margin-right:3%;
+}
+.hotCourseItem{
+	_zoom:1;
+	*display:inline;
+}
+.hotCourseImg{
+	width: 100%;
+    border:0 none;
+}
+.courseHotTitle{
+	font-size:14px;
+	width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height:28px;
+}
+.courseHotTitle a{
+	color:#666666;
+}
+.courseTitle{
+	font-size: 14px;
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid red; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height:28px;
+}
+.courseTitle a{
+	color:#666666;
+}
+.hotCourseDetail,.specailCourseDetail{
+	
+}
+.hotCourseSee{
+	color:red;
+	font-size:12px;
+	display:inline-block;
+	width:60%;
+	line-height:24px;
+}
+.hotCourseSee{
+	_zoom:1;
+	*display:inline;
+}
+.seeNum{
+	font-size:13px;
+	transform: scale(0.90);
+	display:inline-block;
+	color:#666666;
+	line-height:26px;
+}
+.seeNum{
+	_zoom:1;
+	*display:inline;
+}
+.hotCourseBigImg{
+	vertical-align:top;
+}
+
+/* 专题课程 */
+.specialCourseType{
+	border-bottom: 2px solid #23bcb3;
+    width: 65px;
+    margin:20px 0 0 0;
+    font-size:16px;
+    color:#666666;
+    line-height:32px;
+}
+.specialCourseList{
+	width:100%;
+    margin-bottom:25px;
+}
+.specailCourseItem{
+	width:19%;
+	margin-bottom:30px;
+	display:inline-block;
+	/* margin-right:2px; */
+	background:#ffffff;
+}
+.specailCourseItem{
+	_zoom:1;
+	*display:inline;
+}
+.specialCourseImg{
+	width: 98%;
+    border:0 none;
+}
+.specialCourseBigImg{
+	
+	margin-bottom:30px;
+	vertical-align:bottom;
+}
+.coursePrice{
+	color:red;
+	font-size:15px;
+	display:inline-block;
+	width:53%;
+}
+.coursePrice{
+		_zoom:1;
+	*display:inline;
+}
+.courseFree{
+	color:#72d9c5;
+	font-size:15px;
+	display:inline-block;
+	width:53%;
+}
+.courseFree{
+		_zoom:1;
+	*display:inline;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1440px){
+	.hotCourseImg{
+		height:135px;
+	}
+	.specialCourseImg{
+		height:121px;
+	}
+	.specialCourseBigImg{
+		width:170px;
+	height:190px;
+	}
+	.hotCourseBigImg{
+		width:170px;
+	height:190px;
+	}
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+	.hotCourseImg{
+		height:160px;
+	}
+	.specialCourseImg{
+		height:135px;
+	}
+	.specialCourseBigImg{
+		width:200px;
+	height:220px;
+	}
+	.hotCourseBigImg{
+		width:200px;
+	height:220px;
+	}
+
+}

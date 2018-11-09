@@ -1,0 +1,153 @@
+
+/* 中间内容 */
+.middleImg{
+	width:100%;
+}
+.middleImg img{
+	width:100%;
+	height:228px;
+}
+.middleContent{
+	width:65%;
+	margin:0 auto;
+	min-width:900px;
+	/* border:1px solid red; */
+	
+}
+.middleLeftContent{
+	    display: inline-block;
+    vertical-align: top;
+    margin-right:4%;
+    width:24%;
+}
+.middleLeftContent{
+	_zoom:1;
+	*display:inline;
+}
+.company{
+	border: 1px solid transparent;
+    width: 99%;
+    text-align: center;
+    margin-top: -35px;
+    background: #fb7a02;
+    color: white;
+}
+.companyIntrocuction{
+	margin-top: 70px;
+    font-size: 25px;
+}
+.companyElish{
+	font-size:13px;
+}
+.linkJWJ{
+	text-align: center;
+    border: 1px solid #eeeeee;
+    /* box-sizing: border-box; */
+    padding: 8px 0;
+    margin-top: -1px;
+    font-size:15px;
+}
+.middleRightContent{
+	width: 70%;
+    /* border: 1px solid; */
+    display:inline-block;
+    min-width:640px;
+}
+.middleRightContent{
+	_zoom:1;
+	*display:inline;
+}
+.localtionInfo{
+	color:#a0a0a0;
+	padding: 50px 0 5px 0;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom:20px;
+    width:100%;
+}
+.newsContent,.newsList{
+	width:100%;
+}
+.localtionInfo a{
+	color:#a0a0a0;
+}
+.selectedColor{
+	color:#fb7a02 !important;
+}
+.newsItems{
+	margin-bottom:55px;
+}
+
+.newsTitle{
+	font-size:17px;
+	width: 84%;
+    /* border: 1px solid; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    display:inline-block;
+    color:#666666;
+}
+.newsTitle{
+	_zoom:1;
+	*display:inline;
+}
+.publicTime{
+	 color:#666666;
+	 line-height:24px;
+	font-size:12px;
+	display:inline-block;
+}
+.publicTime{
+	_zoom:1;
+	*display:inline;
+}
+.newsDetail{
+	 color:#666666;
+	margin-top: 10px;
+	line-height:28px;
+}
+.seeDetail{
+	color:#fb7a02 !important;
+}
+.pageBox{
+	text-align:left;
+	margin-bottom: 25px;
+}
+.pageBox button{
+	border: none;
+    background: none;
+    font-weight: 600;
+    margin-right: 30px;
+    cursor:pointer;
+    outline:none;
+    color:#666666;
+}
+.pageBox input{
+	border: none;
+    background: none;
+    font-weight: 600;
+    margin-right: 30px;
+    cursor:pointer;
+    outline:none;
+    color:#666666;
+}
+.pageBox span{
+	color: black;
+    font-weight: 600;
+    color:#666666;
+}
+.allPage{
+	margin-left:70px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1440px){
+	.company{
+		height:160px;
+	}
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+	.company{
+		height:200px;
+	}
+}

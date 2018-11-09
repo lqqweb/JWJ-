@@ -1,0 +1,212 @@
+/* 中间内容 */
+.middleImg{
+	width:100%;
+}
+.middleImg img{
+	width:100%;
+	height:228px;
+}
+.middleContent{
+	width:65%;
+	min-width:900px;
+	margin:0 auto;
+	/* border:1px solid red; */
+	margin-bottom: 25px;
+}
+.loaction{
+	margin-bottom: 35px;
+	color:#a0a0a0;
+}
+.loaction a{
+	color:#a0a0a0;
+}
+/* 建造师培训 */
+.constructorTraing{
+	width:100%;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	background:#92aad7;
+	color:white;
+	font-size:21px;
+
+}
+.constructorImg{
+	width:100%;
+}
+
+/* 培训学习 */
+.traingStudy{
+	width:100%;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	background:#92aad7;
+	color:white;
+	font-size:21px;
+	margin-top:20px;
+}
+.traingStudyLine{
+	border:1px solid #ededed;
+	width:100%;
+}
+.traingStudyContent{
+	margin-top:15px;
+	margin-bottom: 20px;
+}
+.traingStudyContent img{
+	width:250px;
+	height:160px;
+	margin-left: 5%;
+	display:inline-block;
+}
+.traingStudyContent img{
+	_zoom:1;
+	*display:inline;
+}
+.singUp{
+	margin-left:6%;
+	display:inline-block;
+	vertical-align:top;
+	color:#666666;
+}
+.singUp{
+	_zoom:1;
+	*display:inline;
+}
+.singUp p{
+	line-height:22px;
+}
+.btn{
+	background: #fc6500;
+    color: white !important;
+    padding: 3px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.traingSpecial{
+    border-top: 1px dotted gray;
+    padding-top: 15px;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+.traingSpecial p{
+	display:inline-block;
+	vertical-align:top;
+	/* width:309px; */
+}
+.traingSpecial p{
+	_zoom:1;
+	*display:inline;/
+}
+.leftTraingSpecial{
+	display:inline-block;
+	text-align:left;
+		color:#666666;
+}
+.leftTraingSpecial{
+	_zoom:1;
+	*display:inline;
+}
+.specialContent{
+	width:265px;
+}
+.specialTitle img{
+	/* vertical-align: middle; */
+    width: 14px;
+    height: 14px;
+}
+.specialItem{
+	font-size:13px;
+	vertical-align:top;
+}
+.testCondition{
+	text-align:center;
+	width:100%;
+	/* border:1px solid blue; */
+	margin:0 auto;
+}
+.testCondition img{
+	width:100%;
+	margin-top:25px;
+}
+.testConditionContent{
+	text-align: left;
+    margin-top:20px;
+    padding-bottom: 20px;
+    color:#666666;
+}
+.testConditionContent ul{
+	margin-left: 15px;
+}
+.rightTraingSpectal{
+display:inline-block;
+vertical-align:top;
+margin-left:80px;
+text-align:left;
+	color:#666666;
+}
+.rightTraingSpectal{
+_zoom:1;
+	*display:inline;
+}
+/* 一建资格审核需提供材料 */
+.eligibilityAssessment{
+	width:100%;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	background:#92aad7;
+	color:white;
+	font-size:21px;
+	margin-top:20px;
+}
+.eligibilityAssessmentLine{
+	border:1px solid #ededed;
+	padding-bottom:25px;
+}
+.eligibilityAssessmentList{
+	width: 100%;
+    margin: 0 auto;
+}
+.singUpRequire_first,.singUpRequire_add,.singUpRequire_old{
+	background: #ededed;
+    border-radius: 12px;
+    padding: 3px 15px;
+}
+.eligibilityAssessmentContent{
+	color:#666666;
+}
+.singUpRequire_first{
+	width:191px;
+	margin-top: 20px;
+}
+
+.singUpRequire_add{
+    width:303px;
+}
+.singUpRequire_old{
+    width:52px;
+}
+.eligibilityAssessmentContent ul{
+	margin-left: 30px;
+	font-size:13px;
+}
+.singUpRequireContent{
+	font-size:13px;
+	margin-left:15px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1440px){
+	.constructorImg{
+		height:710px;
+	}
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+	
+		.constructorImg{
+			height:900px;
+		}
+}
